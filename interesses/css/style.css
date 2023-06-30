@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Inconsolata:wght@700&display=swap%27');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anuphan', sans-serif;
+}
+
+body {
+    background-color: white;
+    line-height: 1.5;
+    overflow: auto;
+}
+
+main {
+    overflow: auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 101;
+}
+
+#emoji_solo_logo {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#title-interesse {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+.btnNav {
+    margin-top: 15px;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+    --bs-navbar-brand-padding-y: 0;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.mb-2 {
+    margin-bottom: .55rem !important;
+}
+
+.btn-outline-light {
+    --bs-btn-hover-bg: #FA7921;
+}
+
+.navbar-brand {
+    margin-left: 5px;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    /* Altura do footer */
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.footer-sub {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-sub h4 {
+    margin: 10px 0;
+}
+
+.footer-sub span {
+    margin: 0 5px;
+}

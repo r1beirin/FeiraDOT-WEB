@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Inconsolata:wght@700&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anuphan', sans-serif;
+}
+
+body{
+    background-color: white;
+    line-height: 1.5;
+    height: 100vh;
+    overflow: none;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 101;
+}
+
+#emoji_solo_logo{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#form-cadastro{
+    background-color: #0002;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 10px #0004;
+    margin-top: 3em;
+    text-align: center;
+}
+
+#title-cadastro{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.container-fluid{
+    --bs-gutter-x: 0;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0;
+    --bs-navbar-brand-padding-y: 0;
+}
+
+.bg-dark {
+	background-color: #343a40 !important;
+}
+
+.mb-2 {
+    margin-bottom: .55rem !important;
+}
+
+.btn-outline-light{
+    --bs-btn-hover-bg: #FA7921;
+}
+
+.navbar-brand{
+    margin-left: 5px;
+}
+

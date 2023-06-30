@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+
+
+
+<body>
+    <header>
+        <a href="/"><span id="emoji_solo_logo">&#129309; Feira.</span></a>
+    </header>
+
+
+    <div class="container_centro">
+        <h1>Feira DOT - Login System<span></span></h1>
+        <main>
+            <div id="div_logar">
+                <form action="loginAnunciante.php" method="post" id="form-login">
+
+                    <div class="div_form">
+                        <label for="email"> E-mail </label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="div_form">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" required>
+                    </div>
+
+                    <div>
+                        <p id="login-fail">E-mail ou senha incorreta. Por favor, tente novamente.</p>
+                    </div>
+
+                    <button type="submit" class="bt_sent">Entrar</button>
+
+                </form>
+            </div>
+
+            <div id="div_cadastrar">
+                <p><a href="/conta/cadastro/">Clique aqui para cadastrar</a></p>
+            </div>
+        </main>
+
+
+        <div id="div_info">
+            <h2>Entre na sua conta</h2>
+            <span id="emoji_info">&#128176;</span>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

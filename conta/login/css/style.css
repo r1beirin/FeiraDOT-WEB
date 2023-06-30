@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Inconsolata:wght@700&display=swap%27');
+
+body{
+  background-color: white;
+  margin: 2%;
+  line-height: 1.5;
+  height: 100vh;
+  padding: 0;
+  font-family: 'Anuphan', sans-serif;
+  overflow: none;
+}
+
+h1 {
+  padding: 2rem;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  visibility: hidden;
+}
+
+.container_centro {
+  width: 60%;
+
+  /*
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  */
+  margin: 0 auto;
+}
+
+main {
+  float: right;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  max-width: 50%;
+}
+
+form {
+  padding: 1rem;
+}
+
+.div_form {
+  padding: 0.5rem;
+}
+
+.div_form>* {
+  font-size: large;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#div_logar {
+  text-align: left;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 1rem auto;
+}
+
+#div_cadastrar {
+  text-align: center;
+  padding: 0;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.bt_sent {
+  background-color: #FA7921;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 0.7rem;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: large;
+}
+
+#div_info {
+  text-align: center;
+  border-radius: 15px;
+
+  float: left;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  max-width: 50%;
+}
+
+a {
+  text-decoration: dashed;
+  color: #FA7921;
+}
+
+#div_info h2 {
+  margin: 1rem;
+  padding: 1rem;
+
+}
+
+#emoji_info {
+  display: block;
+  box-sizing: border-box;
+  font-size: 7rem;
+  /* or any other size you want */
+  margin: 4rem auto;
+}
+
+header{
+  text-align: center;
+}
+
+#emoji_solo_logo{
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  color: black;
+  font-size: 40px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#login-fail {
+  display: none;
+  color: red;
+  text-align: center;
+}
+
+
+@media (max-width: 900px) {
+
+  .container_centro {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #div_info {
+    display: none;
+    /* oculta completamente o elemento */
+  }
+
+  main {
+    padding: 10px;
+    width: 100%;
+    /* ocupa toda a largura disponível */
+    max-width: 100%
+  }
+
+}
